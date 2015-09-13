@@ -60,7 +60,7 @@ void decode(String in){
   while(i < 8){
     sensorValue = analogRead(sensorPin);    
      delay(100);
-    if(sensorValue > 600){
+    if(sensorValue > 600){ 
       strcat(bin, "1");
     }else{
       strcat(bin, "0");
